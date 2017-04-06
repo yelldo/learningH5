@@ -16,6 +16,10 @@ li {
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+}
+
 .top {
     height: 60px;
     margin: 0 auto;
@@ -24,6 +28,8 @@ li {
 
 .logo{
     float: left;
+    margin-top: 6px;
+    margin-left: 94px;
 }
 
 .nav {
@@ -40,7 +46,29 @@ li {
     margin-left: 2em;
     line-height: 60px;
 
-    /*position: relative;*/
+    position: relative;
+}
+
+.nav_contact a {
+    color: #FFFFFF;
+}
+
+.nav_box ul li span{
+    position: absolute;
+    display: block;
+    background: #1bd0ca;
+    width:0px;
+    height: 0px;
+    top:0px;
+    left:50%;
+}
+
+.nav_box ul li a:hover{
+    color: #1bd0ca;
+}
+
+.nav li #index{
+    color: #1bd0ca;
 }
 
 .nav_contact {
@@ -50,5 +78,9 @@ li {
     line-height:60px;
     width: 240px;
     text-align: center;
+}
+
+.nav_contact:hover{
+    opacity:0.7;
 }
 
