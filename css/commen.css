@@ -1,9 +1,10 @@
 @charset "utf-8";
 /* css document */
 
-*{
-    font-family:"微软雅黑";
+* {
+    font-family: "微软雅黑";
     font-size: 16px;
+    /*font-size: 62.5%;*/
     color: #333333;
 }
 
@@ -16,9 +17,11 @@ li {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
+
+/*top*/
 
 .top {
     height: 60px;
@@ -26,7 +29,7 @@ a{
     width: 100%;
 }
 
-.logo{
+.logo {
     float: left;
     margin-top: 6px;
     margin-left: 94px;
@@ -36,7 +39,6 @@ a{
     width: 616px;
     height: 60px;
     float: right;
-    boder:1px solid black;
 }
 
 .nav li {
@@ -45,7 +47,6 @@ a{
     text-align: center;
     margin-left: 2em;
     line-height: 60px;
-
     position: relative;
 }
 
@@ -53,21 +54,21 @@ a{
     color: #FFFFFF;
 }
 
-.nav_box ul li span{
+.nav_box ul li span {
     position: absolute;
     display: block;
     background: #1bd0ca;
-    width:0px;
+    width: 0px;
     height: 0px;
-    top:0px;
-    left:50%;
+    top: 0px;
+    left: 50%;
 }
 
-.nav_box ul li a:hover{
+.nav_box ul li a:hover {
     color: #1bd0ca;
 }
 
-.nav li #index{
+.nav li #index {
     color: #1bd0ca;
 }
 
@@ -75,12 +76,53 @@ a{
     float: right;
     background-image: url("../image/bg_contact.png");
     background-repeat: no-repeat;
-    line-height:60px;
+    line-height: 60px;
     width: 240px;
     text-align: center;
 }
 
-.nav_contact:hover{
-    opacity:0.7;
+.nav_contact:hover {
+    opacity: 0.7;/*不透明级别*/
 }
 
+/*banner*/
+
+.banner_box{
+    margin-left:auto;
+    margin-right:auto;
+    overflow:hidden;
+    height:800px;
+    position: relative;
+}
+
+.banner{
+    width:auto;
+    top:0px;
+    /*left:50%;*/
+    /*margin-left: -50%;*/
+    position: absolute;
+
+}
+
+/*.banner li{*/
+    /*float: left;*/
+/*}*/
+
+.bn_dots{
+    left:50%;
+    position: absolute;
+    bottom: 30px;
+}
+
+.bn_dots li{
+    height:10px;
+    width: 20px;
+    float: left;
+    border-radius: 2px;
+    margin-left: 5px;
+    background-color: #FFFFFF;
+}
+
+.bn_dots .add {
+    background-color: #1bd0ca;
+}

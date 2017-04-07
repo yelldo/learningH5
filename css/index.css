@@ -96,10 +96,6 @@ dl, dd {
     position: relative;
 }
 
-.nav .fixed {
-    color: #1BD0CA;
-}
-
 .nav_contact {
     width: 240px;
     height: 60px;
