@@ -22,7 +22,6 @@ a {
 }
 
 /*top*/
-
 .top {
     height: 60px;
     margin: 0 auto;
@@ -86,7 +85,6 @@ a {
 }
 
 /*banner*/
-
 .top_banner{
     margin-left:auto;
     margin-right:auto;
@@ -95,7 +93,7 @@ a {
     position: relative;
 }
 
-.banner_box ol{position:relative;width: 80px;height: 20px;top:-30px;left:60px;}
+.banner_box ol{position:relative;width: 80px;height: 20px;top:-60px;left:600px;}
 .banner_box ol li{float:left;width: 10px;height: 10px;margin: 5px;background: #FFFFFF;}
 .banner_box ol li.seleted{background: #1bd0ca;}
 
@@ -107,7 +105,6 @@ a {
 .slider_left ul li img{width: inherit;height: inherit;}
 
 /*product*/
-
 .product{ width:1036px; margin:0 auto; margin-bottom:72px; padding-top:106px;}
 .product_title{ float:left;}
 .product_title h1{ font-size:50px; font-weight:bold;}

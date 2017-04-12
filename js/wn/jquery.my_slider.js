@@ -41,7 +41,10 @@ jQuery.fn.extend({
         b.width(h).height(i).addClass(k), c.width(s(j)).height(i), d.width(h).height(i), e.eq(0).addClass(n), function () {
             s = null, t = null, u = null
         }(), r = function () {
-            switch (j) {
+            return function () {
+                c.animate({left: -h * o + "px"}, m)
+            };
+            /*switch (j) {
                 case"top":
                     return function () {
                         c.animate({top: -i * o + "px"}, m)
@@ -54,13 +57,13 @@ jQuery.fn.extend({
                     return function () {
                         d.hide().eq(o).fadeIn(m)
                     }
-            }
+            }*/
         }(), e.mouseover(function () {
             e.eq(o).removeClass(n), o = e.index($(this)), $(this).addClass(n), r()
-        }), b.mouseenter(function () {
+        }), /*b.mouseenter(function () {
             clearTimeout(q)
         }).mouseleave(function () {
             v()
-        }), v()
+        }),*/ v()
     }
 });
