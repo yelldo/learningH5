@@ -22,7 +22,6 @@ a {
 }
 
 /*top*/
-
 .top {
     height: 60px;
     margin: 0 auto;
@@ -74,7 +73,7 @@ a {
 
 .nav_contact {
     float: right;
-    background-image: url("../image/bg_contact.png");
+    background-image: url("../../image/wn/bg_contact.png");
     background-repeat: no-repeat;
     line-height: 60px;
     width: 240px;
@@ -86,8 +85,7 @@ a {
 }
 
 /*banner*/
-
-.banner_box{
+.top_banner{
     margin-left:auto;
     margin-right:auto;
     overflow:hidden;
@@ -95,34 +93,21 @@ a {
     position: relative;
 }
 
-.banner{
-    width:auto;
-    top:0px;
-    /*left:50%;*/
-    /*margin-left: -50%;*/
-    position: absolute;
+.banner_box ol{position:relative;width: 80px;height: 20px;top:-60px;left:600px;}
+.banner_box ol li{float:left;width: 10px;height: 10px;margin: 5px;background: #FFFFFF;}
+.banner_box ol li.seleted{background: #1bd0ca;}
 
-}
+/*左滑*/
+.banner_box{}
+.slider_left{position:relative;padding:0;}
+.slider_left ul{position: relative;padding: inherit;margin: 0;}
+.slider_left ul li{float: left;padding: inherit;margin: inherit;list-style: none;}
+.slider_left ul li img{width: inherit;height: inherit;}
 
-/*.banner li{*/
-    /*float: left;*/
-/*}*/
-
-.bn_dots{
-    left:50%;
-    position: absolute;
-    bottom: 30px;
-}
-
-.bn_dots li{
-    height:10px;
-    width: 20px;
-    float: left;
-    border-radius: 2px;
-    margin-left: 5px;
-    background-color: #FFFFFF;
-}
-
-.bn_dots .add {
-    background-color: #1bd0ca;
-}
+/*product*/
+.product{ width:1036px; margin:0 auto; margin-bottom:72px; padding-top:106px;}
+.product_title{ float:left;}
+.product_title h1{ font-size:50px; font-weight:bold;}
+.product_h2 img{ float:left; margin-top:16px;}
+.product_h2 h2{ float:left; font-size:30px; color:#1BD0CA; margin-left:24px;}
+.product p{ width:340px; float:left; margin-left:400px; margin-top:10px; text-align:justify;}
