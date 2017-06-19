@@ -73,6 +73,13 @@ dl, dd {
     width: 100% !important;
 }
 
+.top:before{
+    content: '';
+    display: table;
+    z-index: 900;
+
+}
+
 .logo {
     float: left;
     margin-left: 94px;
