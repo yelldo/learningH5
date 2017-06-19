@@ -15,7 +15,8 @@
         }
         header,footer{
             background-color: gray;
-            padding:1em;
+            padding: 15px;
+            color: white;
         }
         .column{
             float:left;
@@ -32,6 +33,8 @@
         }
         .menu ul{
             list-style-type: none;
+            margin:0;
+            padding:0;
         }
         .menu ul li{
             background-color: #1bd0ca;
@@ -39,8 +42,14 @@
             padding: 8px;
             color:white;
         }
+        .menu ul li:hover{
+            background-color: #1AA4CA;
+        }
+        .menu ul a {
+            text-decoration: none;
+        }
         .column.content{
-            padding-top: 25px;
+            /*padding-top: 25px;*/
             /*margin-left: 15px;*/
             width:75%;
         }
@@ -53,10 +62,10 @@
         <div class="clearfix">
             <div class="column menu">
                 <ul>
-                    <li>the mountain</li>
-                    <li>the sky</li>
-                    <li>the person</li>
-                    <li>the women</li>
+                    <a href="#"><li>ludynice</li></a>
+                    <a href="#"><li>ludynice</li></a>
+                    <a href="#"><li>ludynice</li></a>
+                    <a href="#"><li>ludynice</li></a>
                 </ul>
             </div>
             <div class="column content">
@@ -65,7 +74,7 @@
                 <h2>hello world everyone</h2>
             </div>
         </div>
-        <footer>footer text</footer>
+        <footer><p>footer text</p></footer>
     </div>
 </body>
 </html>

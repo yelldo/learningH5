@@ -1,78 +1,72 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
     <style>
-        *{
+        * {
             box-sizing: border-box;
         }
-        div.container{
-            width:100%;
-        }
-        header,footer{
-            background-color: gray;
-            padding: 15px;
+        .header, .footer {
+            background-color: grey;
             color: white;
-        }
-        .column{
-            float:left;
             padding: 15px;
         }
-
-        .clearfix::after{
-            content:"";
+        .column {
+            float: left;
+            padding: 15px;
+        }
+        .clearfix::after {
+            content: "";
+            clear: both;
             display: table;
-            clear:both;
         }
-        .column.menu{
-            width:25%;
+        .menu {
+            width: 25%;
         }
-        .menu ul{
+        .content {
+            width: 75%;
+        }
+        .menu ul {
             list-style-type: none;
+            margin: 0;
+            padding: 0;
         }
-        .menu ul li{
-            background-color: #1bd0ca;
-            margin-bottom: 8px;
+        .menu li {
             padding: 8px;
-            color:white;
+            margin-bottom: 8px;
+            background-color: #33b5e5;
+            color: #ffffff;
         }
-        .menu ul li:hover{
-            background-color: #1AA4CA;
+        .menu li:hover {
+            background-color: #0099cc;
         }
-        .menu ul a {
-            text-decoration: none;
-        }
-        .column.content{
-            padding-top: 25px;
-            /*margin-left: 15px;*/
-            width:75%;
-        }
-
     </style>
 </head>
 <body>
-    <div class="container">
-        <header><h1>header</h1></header>
-        <div class="clearfix">
-            <div class="column menu">
-                <ul>
-                    <a href="#"><li>ludynice</li></a>
-                    <a href="#"><li>ludynice</li></a>
-                    <a href="#"><li>ludynice</li></a>
-                    <a href="#"><li>ludynice</li></a>
-                </ul>
-            </div>
-            <div class="column content">
-                <h1>title</h1>
-                <h2>hello world everyone</h2>
-                <h2>hello world everyone</h2>
-            </div>
-        </div>
-        <footer><p>footer text</p></footer>
+
+<div class="header">
+    <h1>Chania</h1>
+</div>
+
+<div class="clearfix">
+    <div class="column menu">
+        <ul>
+            <li>The Flight</li>
+            <li>The City</li>
+            <li>The Island</li>
+            <li>The Food</li>
+        </ul>
     </div>
+
+    <div class="column content">
+        <h1>The City</h1>
+        <p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
+        <p>You will learn more about web layout and responsive web pages in a later chapter.</p>
+    </div>
+</div>
+
+<div class="footer">
+    <p>Footer Text</p>
+</div>
+
 </body>
 </html>
